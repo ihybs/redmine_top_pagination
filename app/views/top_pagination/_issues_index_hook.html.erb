@@ -1,0 +1,8 @@
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    var $pagination = $("p.pagination");
+    if ($pagination.size()) {
+      $("#query_form").after('<p class="pagination">' + $pagination.html() + '</p>');
+    }
+  });
+</script>
